@@ -100,7 +100,7 @@ const _Assets = {
   },
   soundFiles: {
     gym:   [
-      'tada.mp3', //only used while testing
+      'gym0.mp3', //only used while testing
       'gym1.mp3',
       'gym2.mp3',
       'gym3.mp3',
@@ -108,7 +108,7 @@ const _Assets = {
       'gym5.mp3',
     ],
     summer:   [
-      'tada.mp3', //only used while testing
+      'summer0.mp3', //only used while testing
       'summer1.mp3',
       'summer2.mp3',
       'summer3.mp3',
@@ -116,7 +116,7 @@ const _Assets = {
       'summer5.mp3',
     ],
     autumn: [
-      'tada.mp3', //only used while testing
+      'autumn0.mp3', //only used while testing
       'autumn1.mp3',
       'autumn2.mp3',
       'autumn3.mp3',
@@ -124,7 +124,7 @@ const _Assets = {
       'autumn5.mp3',
     ],
     winter: [
-      'tada.mp3', //only used while testing
+      'winter0.mp3', //only used while testing
       'winter1.mp3',
       'winter2.mp3',
       'winter3.mp3',
@@ -132,7 +132,7 @@ const _Assets = {
       'winter5.mp3',
     ],
     weather: [
-      'tada.mp3', //only used while testing
+      'weather0.mp3', //only used while testing
       'weather1.mp3',
       'weather2.mp3',
       'weather3.mp3',
@@ -140,7 +140,7 @@ const _Assets = {
       'weather5.mp3',
     ],
     beach: [
-      'tada.mp3', //only used while testing
+      'beach0.mp3', //only used while testing
       'beach1.mp3',
       'beach2.mp3',
       'beach3.mp3',
@@ -148,7 +148,7 @@ const _Assets = {
       'beach5.mp3',
     ],
     ride: [
-      'tada.mp3', //only used while testing
+      'ride0.mp3', //only used while testing
       'ride1.mp3',
       'ride2.mp3',
       'ride3.mp3',
@@ -156,7 +156,7 @@ const _Assets = {
       'ride5.mp3',
     ],
     spring: [
-      'tada.mp3', //only used while testing
+      'spring0.mp3', //only used while testing
       'spring1.mp3',
       'spring2.mp3',
       'spring3.mp3',
