@@ -1,5 +1,6 @@
 const _Assets = {
-  mainTitleText: 'Så gör man - Väder\xa0och\xa0kläder', // x0A is non breaking space
+  mainTitleTextLandscape: 'Så gör man - Väder och kläder', 
+  mainTitleTextPortrait: 'Så gör man\nVäder och kläder', 
   mainBookName: 'winter', //number of frames in this book defines the size of the indicators
   bookOrder: [
     'winter',
