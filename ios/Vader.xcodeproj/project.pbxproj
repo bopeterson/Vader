@@ -23,6 +23,54 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		52BD7BCB20CA95C60014888E /* spring4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7B7520CA95BB0014888E /* spring4.mp3 */; };
+		52BD7BCC20CA95C60014888E /* ride5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7B9C20CA95BB0014888E /* ride5.mp3 */; };
+		52BD7BCD20CA95C60014888E /* winter5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7B9D20CA95BB0014888E /* winter5.mp3 */; };
+		52BD7BCE20CA95C60014888E /* beach0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7B9E20CA95BC0014888E /* beach0.mp3 */; };
+		52BD7BCF20CA95C60014888E /* autumn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7B9F20CA95BC0014888E /* autumn1.mp3 */; };
+		52BD7BD020CA95C60014888E /* ride0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA020CA95BC0014888E /* ride0.mp3 */; };
+		52BD7BD120CA95C60014888E /* spring0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA120CA95BC0014888E /* spring0.mp3 */; };
+		52BD7BD220CA95C60014888E /* winter3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA220CA95BC0014888E /* winter3.mp3 */; };
+		52BD7BD320CA95C60014888E /* weather3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA320CA95BD0014888E /* weather3.mp3 */; };
+		52BD7BD420CA95C60014888E /* autumn0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA420CA95BD0014888E /* autumn0.mp3 */; };
+		52BD7BD520CA95C60014888E /* winter4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA520CA95BD0014888E /* winter4.mp3 */; };
+		52BD7BD620CA95C60014888E /* gym1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA620CA95BD0014888E /* gym1.mp3 */; };
+		52BD7BD720CA95C60014888E /* weather4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA720CA95BE0014888E /* weather4.mp3 */; };
+		52BD7BD820CA95C60014888E /* spring3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA820CA95BE0014888E /* spring3.mp3 */; };
+		52BD7BD920CA95C60014888E /* spring1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BA920CA95BE0014888E /* spring1.mp3 */; };
+		52BD7BDA20CA95C60014888E /* summer1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BAA20CA95BE0014888E /* summer1.mp3 */; };
+		52BD7BDB20CA95C60014888E /* spring2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BAB20CA95BF0014888E /* spring2.mp3 */; };
+		52BD7BDC20CA95C60014888E /* autumn2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BAC20CA95BF0014888E /* autumn2.mp3 */; };
+		52BD7BDD20CA95C60014888E /* beach3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BAD20CA95BF0014888E /* beach3.mp3 */; };
+		52BD7BDE20CA95C60014888E /* autumn5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BAE20CA95BF0014888E /* autumn5.mp3 */; };
+		52BD7BDF20CA95C60014888E /* beach4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BAF20CA95C00014888E /* beach4.mp3 */; };
+		52BD7BE020CA95C60014888E /* gym3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB020CA95C00014888E /* gym3.mp3 */; };
+		52BD7BE120CA95C60014888E /* winter1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB120CA95C00014888E /* winter1.mp3 */; };
+		52BD7BE220CA95C60014888E /* ride2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB220CA95C00014888E /* ride2.mp3 */; };
+		52BD7BE320CA95C60014888E /* gym0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB320CA95C10014888E /* gym0.mp3 */; };
+		52BD7BE420CA95C60014888E /* ride1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB420CA95C10014888E /* ride1.mp3 */; };
+		52BD7BE520CA95C60014888E /* summer4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB520CA95C10014888E /* summer4.mp3 */; };
+		52BD7BE620CA95C60014888E /* winter0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB620CA95C10014888E /* winter0.mp3 */; };
+		52BD7BE720CA95C60014888E /* ride4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB720CA95C20014888E /* ride4.mp3 */; };
+		52BD7BE820CA95C60014888E /* summer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB820CA95C20014888E /* summer2.mp3 */; };
+		52BD7BE920CA95C60014888E /* beach5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BB920CA95C20014888E /* beach5.mp3 */; };
+		52BD7BEA20CA95C60014888E /* winter2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BBA20CA95C20014888E /* winter2.mp3 */; };
+		52BD7BEB20CA95C60014888E /* autumn3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BBB20CA95C30014888E /* autumn3.mp3 */; };
+		52BD7BEC20CA95C60014888E /* gym2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BBC20CA95C30014888E /* gym2.mp3 */; };
+		52BD7BED20CA95C60014888E /* ride3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BBD20CA95C30014888E /* ride3.mp3 */; };
+		52BD7BEE20CA95C60014888E /* spring5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BBE20CA95C30014888E /* spring5.mp3 */; };
+		52BD7BEF20CA95C60014888E /* summer5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BBF20CA95C30014888E /* summer5.mp3 */; };
+		52BD7BF020CA95C60014888E /* summer0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC020CA95C40014888E /* summer0.mp3 */; };
+		52BD7BF120CA95C60014888E /* weather5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC120CA95C40014888E /* weather5.mp3 */; };
+		52BD7BF220CA95C60014888E /* gym4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC220CA95C40014888E /* gym4.mp3 */; };
+		52BD7BF320CA95C60014888E /* weather0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC320CA95C40014888E /* weather0.mp3 */; };
+		52BD7BF420CA95C60014888E /* weather2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC420CA95C50014888E /* weather2.mp3 */; };
+		52BD7BF520CA95C60014888E /* beach2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC520CA95C50014888E /* beach2.mp3 */; };
+		52BD7BF620CA95C60014888E /* weather1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC620CA95C50014888E /* weather1.mp3 */; };
+		52BD7BF720CA95C60014888E /* autumn4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC720CA95C50014888E /* autumn4.mp3 */; };
+		52BD7BF820CA95C60014888E /* gym5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC820CA95C60014888E /* gym5.mp3 */; };
+		52BD7BF920CA95C60014888E /* beach1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BC920CA95C60014888E /* beach1.mp3 */; };
+		52BD7BFA20CA95C60014888E /* summer3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BD7BCA20CA95C60014888E /* summer3.mp3 */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -326,6 +374,54 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2A9D0BD419D443C4A39FE505 /* RNSound.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BD7B7520CA95BB0014888E /* spring4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spring4.mp3; sourceTree = "<group>"; };
+		52BD7B9C20CA95BB0014888E /* ride5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride5.mp3; sourceTree = "<group>"; };
+		52BD7B9D20CA95BB0014888E /* winter5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winter5.mp3; sourceTree = "<group>"; };
+		52BD7B9E20CA95BC0014888E /* beach0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beach0.mp3; sourceTree = "<group>"; };
+		52BD7B9F20CA95BC0014888E /* autumn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn1.mp3; sourceTree = "<group>"; };
+		52BD7BA020CA95BC0014888E /* ride0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride0.mp3; sourceTree = "<group>"; };
+		52BD7BA120CA95BC0014888E /* spring0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spring0.mp3; sourceTree = "<group>"; };
+		52BD7BA220CA95BC0014888E /* winter3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winter3.mp3; sourceTree = "<group>"; };
+		52BD7BA320CA95BD0014888E /* weather3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weather3.mp3; sourceTree = "<group>"; };
+		52BD7BA420CA95BD0014888E /* autumn0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn0.mp3; sourceTree = "<group>"; };
+		52BD7BA520CA95BD0014888E /* winter4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winter4.mp3; sourceTree = "<group>"; };
+		52BD7BA620CA95BD0014888E /* gym1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gym1.mp3; sourceTree = "<group>"; };
+		52BD7BA720CA95BE0014888E /* weather4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weather4.mp3; sourceTree = "<group>"; };
+		52BD7BA820CA95BE0014888E /* spring3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spring3.mp3; sourceTree = "<group>"; };
+		52BD7BA920CA95BE0014888E /* spring1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spring1.mp3; sourceTree = "<group>"; };
+		52BD7BAA20CA95BE0014888E /* summer1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = summer1.mp3; sourceTree = "<group>"; };
+		52BD7BAB20CA95BF0014888E /* spring2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spring2.mp3; sourceTree = "<group>"; };
+		52BD7BAC20CA95BF0014888E /* autumn2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn2.mp3; sourceTree = "<group>"; };
+		52BD7BAD20CA95BF0014888E /* beach3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beach3.mp3; sourceTree = "<group>"; };
+		52BD7BAE20CA95BF0014888E /* autumn5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn5.mp3; sourceTree = "<group>"; };
+		52BD7BAF20CA95C00014888E /* beach4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beach4.mp3; sourceTree = "<group>"; };
+		52BD7BB020CA95C00014888E /* gym3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gym3.mp3; sourceTree = "<group>"; };
+		52BD7BB120CA95C00014888E /* winter1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winter1.mp3; sourceTree = "<group>"; };
+		52BD7BB220CA95C00014888E /* ride2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride2.mp3; sourceTree = "<group>"; };
+		52BD7BB320CA95C10014888E /* gym0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gym0.mp3; sourceTree = "<group>"; };
+		52BD7BB420CA95C10014888E /* ride1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride1.mp3; sourceTree = "<group>"; };
+		52BD7BB520CA95C10014888E /* summer4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = summer4.mp3; sourceTree = "<group>"; };
+		52BD7BB620CA95C10014888E /* winter0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winter0.mp3; sourceTree = "<group>"; };
+		52BD7BB720CA95C20014888E /* ride4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride4.mp3; sourceTree = "<group>"; };
+		52BD7BB820CA95C20014888E /* summer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = summer2.mp3; sourceTree = "<group>"; };
+		52BD7BB920CA95C20014888E /* beach5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beach5.mp3; sourceTree = "<group>"; };
+		52BD7BBA20CA95C20014888E /* winter2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winter2.mp3; sourceTree = "<group>"; };
+		52BD7BBB20CA95C30014888E /* autumn3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn3.mp3; sourceTree = "<group>"; };
+		52BD7BBC20CA95C30014888E /* gym2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gym2.mp3; sourceTree = "<group>"; };
+		52BD7BBD20CA95C30014888E /* ride3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ride3.mp3; sourceTree = "<group>"; };
+		52BD7BBE20CA95C30014888E /* spring5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spring5.mp3; sourceTree = "<group>"; };
+		52BD7BBF20CA95C30014888E /* summer5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = summer5.mp3; sourceTree = "<group>"; };
+		52BD7BC020CA95C40014888E /* summer0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = summer0.mp3; sourceTree = "<group>"; };
+		52BD7BC120CA95C40014888E /* weather5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weather5.mp3; sourceTree = "<group>"; };
+		52BD7BC220CA95C40014888E /* gym4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gym4.mp3; sourceTree = "<group>"; };
+		52BD7BC320CA95C40014888E /* weather0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weather0.mp3; sourceTree = "<group>"; };
+		52BD7BC420CA95C50014888E /* weather2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weather2.mp3; sourceTree = "<group>"; };
+		52BD7BC520CA95C50014888E /* beach2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beach2.mp3; sourceTree = "<group>"; };
+		52BD7BC620CA95C50014888E /* weather1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weather1.mp3; sourceTree = "<group>"; };
+		52BD7BC720CA95C50014888E /* autumn4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn4.mp3; sourceTree = "<group>"; };
+		52BD7BC820CA95C60014888E /* gym5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gym5.mp3; sourceTree = "<group>"; };
+		52BD7BC920CA95C60014888E /* beach1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beach1.mp3; sourceTree = "<group>"; };
+		52BD7BCA20CA95C60014888E /* summer3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = summer3.mp3; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -556,6 +652,54 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				52BD7BA420CA95BD0014888E /* autumn0.mp3 */,
+				52BD7B9F20CA95BC0014888E /* autumn1.mp3 */,
+				52BD7BAC20CA95BF0014888E /* autumn2.mp3 */,
+				52BD7BBB20CA95C30014888E /* autumn3.mp3 */,
+				52BD7BC720CA95C50014888E /* autumn4.mp3 */,
+				52BD7BAE20CA95BF0014888E /* autumn5.mp3 */,
+				52BD7B9E20CA95BC0014888E /* beach0.mp3 */,
+				52BD7BC920CA95C60014888E /* beach1.mp3 */,
+				52BD7BC520CA95C50014888E /* beach2.mp3 */,
+				52BD7BAD20CA95BF0014888E /* beach3.mp3 */,
+				52BD7BAF20CA95C00014888E /* beach4.mp3 */,
+				52BD7BB920CA95C20014888E /* beach5.mp3 */,
+				52BD7BB320CA95C10014888E /* gym0.mp3 */,
+				52BD7BA620CA95BD0014888E /* gym1.mp3 */,
+				52BD7BBC20CA95C30014888E /* gym2.mp3 */,
+				52BD7BB020CA95C00014888E /* gym3.mp3 */,
+				52BD7BC220CA95C40014888E /* gym4.mp3 */,
+				52BD7BC820CA95C60014888E /* gym5.mp3 */,
+				52BD7BA020CA95BC0014888E /* ride0.mp3 */,
+				52BD7BB420CA95C10014888E /* ride1.mp3 */,
+				52BD7BB220CA95C00014888E /* ride2.mp3 */,
+				52BD7BBD20CA95C30014888E /* ride3.mp3 */,
+				52BD7BB720CA95C20014888E /* ride4.mp3 */,
+				52BD7B9C20CA95BB0014888E /* ride5.mp3 */,
+				52BD7BA120CA95BC0014888E /* spring0.mp3 */,
+				52BD7BA920CA95BE0014888E /* spring1.mp3 */,
+				52BD7BAB20CA95BF0014888E /* spring2.mp3 */,
+				52BD7BA820CA95BE0014888E /* spring3.mp3 */,
+				52BD7B7520CA95BB0014888E /* spring4.mp3 */,
+				52BD7BBE20CA95C30014888E /* spring5.mp3 */,
+				52BD7BC020CA95C40014888E /* summer0.mp3 */,
+				52BD7BAA20CA95BE0014888E /* summer1.mp3 */,
+				52BD7BB820CA95C20014888E /* summer2.mp3 */,
+				52BD7BCA20CA95C60014888E /* summer3.mp3 */,
+				52BD7BB520CA95C10014888E /* summer4.mp3 */,
+				52BD7BBF20CA95C30014888E /* summer5.mp3 */,
+				52BD7BC320CA95C40014888E /* weather0.mp3 */,
+				52BD7BC620CA95C50014888E /* weather1.mp3 */,
+				52BD7BC420CA95C50014888E /* weather2.mp3 */,
+				52BD7BA320CA95BD0014888E /* weather3.mp3 */,
+				52BD7BA720CA95BE0014888E /* weather4.mp3 */,
+				52BD7BC120CA95C40014888E /* weather5.mp3 */,
+				52BD7BB620CA95C10014888E /* winter0.mp3 */,
+				52BD7BB120CA95C00014888E /* winter1.mp3 */,
+				52BD7BBA20CA95C20014888E /* winter2.mp3 */,
+				52BD7BA220CA95BC0014888E /* winter3.mp3 */,
+				52BD7BA520CA95BD0014888E /* winter4.mp3 */,
+				52BD7B9D20CA95BB0014888E /* winter5.mp3 */,
 				13B07FAE1A68108700A75B9A /* Vader */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* VaderTests */,
@@ -998,8 +1142,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BD7BD320CA95C60014888E /* weather3.mp3 in Resources */,
+				52BD7BEB20CA95C60014888E /* autumn3.mp3 in Resources */,
+				52BD7BE520CA95C60014888E /* summer4.mp3 in Resources */,
+				52BD7BEF20CA95C60014888E /* summer5.mp3 in Resources */,
+				52BD7BCC20CA95C60014888E /* ride5.mp3 in Resources */,
+				52BD7BFA20CA95C60014888E /* summer3.mp3 in Resources */,
+				52BD7BD120CA95C60014888E /* spring0.mp3 in Resources */,
+				52BD7BE220CA95C60014888E /* ride2.mp3 in Resources */,
+				52BD7BE420CA95C60014888E /* ride1.mp3 in Resources */,
+				52BD7BF820CA95C60014888E /* gym5.mp3 in Resources */,
+				52BD7BE620CA95C60014888E /* winter0.mp3 in Resources */,
+				52BD7BD920CA95C60014888E /* spring1.mp3 in Resources */,
+				52BD7BE920CA95C60014888E /* beach5.mp3 in Resources */,
+				52BD7BD520CA95C60014888E /* winter4.mp3 in Resources */,
+				52BD7BCE20CA95C60014888E /* beach0.mp3 in Resources */,
+				52BD7BD220CA95C60014888E /* winter3.mp3 in Resources */,
+				52BD7BF520CA95C60014888E /* beach2.mp3 in Resources */,
+				52BD7BCF20CA95C60014888E /* autumn1.mp3 in Resources */,
+				52BD7BD020CA95C60014888E /* ride0.mp3 in Resources */,
+				52BD7BF620CA95C60014888E /* weather1.mp3 in Resources */,
+				52BD7BF420CA95C60014888E /* weather2.mp3 in Resources */,
+				52BD7BE720CA95C60014888E /* ride4.mp3 in Resources */,
+				52BD7BD720CA95C60014888E /* weather4.mp3 in Resources */,
+				52BD7BF020CA95C60014888E /* summer0.mp3 in Resources */,
+				52BD7BEE20CA95C60014888E /* spring5.mp3 in Resources */,
+				52BD7BED20CA95C60014888E /* ride3.mp3 in Resources */,
+				52BD7BD420CA95C60014888E /* autumn0.mp3 in Resources */,
+				52BD7BCD20CA95C60014888E /* winter5.mp3 in Resources */,
+				52BD7BEA20CA95C60014888E /* winter2.mp3 in Resources */,
+				52BD7BD620CA95C60014888E /* gym1.mp3 in Resources */,
+				52BD7BF920CA95C60014888E /* beach1.mp3 in Resources */,
+				52BD7BDD20CA95C60014888E /* beach3.mp3 in Resources */,
+				52BD7BE020CA95C60014888E /* gym3.mp3 in Resources */,
+				52BD7BE820CA95C60014888E /* summer2.mp3 in Resources */,
+				52BD7BE120CA95C60014888E /* winter1.mp3 in Resources */,
+				52BD7BF220CA95C60014888E /* gym4.mp3 in Resources */,
+				52BD7BDF20CA95C60014888E /* beach4.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				52BD7BF120CA95C60014888E /* weather5.mp3 in Resources */,
+				52BD7BDB20CA95C60014888E /* spring2.mp3 in Resources */,
+				52BD7BE320CA95C60014888E /* gym0.mp3 in Resources */,
+				52BD7BF720CA95C60014888E /* autumn4.mp3 in Resources */,
+				52BD7BEC20CA95C60014888E /* gym2.mp3 in Resources */,
+				52BD7BDE20CA95C60014888E /* autumn5.mp3 in Resources */,
+				52BD7BF320CA95C60014888E /* weather0.mp3 in Resources */,
+				52BD7BCB20CA95C60014888E /* spring4.mp3 in Resources */,
+				52BD7BDA20CA95C60014888E /* summer1.mp3 in Resources */,
+				52BD7BDC20CA95C60014888E /* autumn2.mp3 in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				52BD7BD820CA95C60014888E /* spring3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1137,7 +1329,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "se.bonasignum.doitlikethat-weather";
+				PRODUCT_BUNDLE_IDENTIFIER = se.bonasignum.doitlikethatweather;
 				PRODUCT_NAME = Vader;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1162,7 +1354,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "se.bonasignum.doitlikethat-weather";
+				PRODUCT_BUNDLE_IDENTIFIER = se.bonasignum.doitlikethatweather;
 				PRODUCT_NAME = Vader;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
