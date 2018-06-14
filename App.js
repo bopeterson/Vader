@@ -27,7 +27,6 @@ const Assets = require('./assets.js');
 
 //hack to get size of logo because Image.getSize() does not work for static images (yet)
 const {width:logoWidth, height:logoHeight} = resolveAssetSource(Assets.logo);
-//console.log(logoWidth,logoHeight);
 // Enable playback in silence mode (iOS only)
 Sound.setCategory('Playback');
 
@@ -303,11 +302,9 @@ class MainView extends React.Component {
     for (let i=0;i<Assets.soundFiles[this.book].length;i++) {
       var oneSound=new Sound(Assets.soundFiles[this.book][i], Sound.MAIN_BUNDLE, (error)=>{
         if (error) {
-          console.log('failde to load the sound', error)
+          //console.log('failed to load the sound', error)
           return;
         }
-        console.log('duration in seconds: ' + oneSound.getDuration() + 'number of channels: ' + oneSound.getNumberOfChannels());
-        
       });
       this.sounds.push(oneSound);
     }
@@ -324,8 +321,6 @@ class MainView extends React.Component {
     this.handleImageViewScroll = this.handleImageViewScroll.bind(this);    
     this.handlePageNumberPress = this.handlePageNumberPress.bind(this);
     this.handleBackButtonPress = this.handleBackButtonPress.bind(this);
-    
-    console.log(this.book,"loaded");
   }
 
   componentDidMount() {
@@ -337,7 +332,6 @@ class MainView extends React.Component {
   }
 
   componentWillUnmount() {
-    console.log("unmounting");
     clearTimeout(this.speakerTimerID);
     clearTimeout(this.speakerTimer2ID);
     clearTimeout(this.scrollLockTimerID);
@@ -346,8 +340,6 @@ class MainView extends React.Component {
       this.sounds[this.state.activeFrame].stop();
     }
     for (let i=0;i<this.sounds.length;i++) {
-      //xxx här ska man kanske releasa alla sounds???
-      console.log("releasing sound",i);
       this.sounds[i].release();
     }
   }
@@ -366,9 +358,8 @@ class MainView extends React.Component {
       //always clear queued sounds that havent't started when moved to a new frame
       clearTimeout(this.speakerTimerID);
       clearTimeout(this.speakerTimer2ID);
-      //don't play sound when moved to start frame
+      //don't play sound when moved to start frame if playTitleFrame is false
       if (this.state.activeFrame>0 || Environment.playTitleFrame) {
-        console.log("0000");
         this.delayedPlay(this.state.activeFrame,Environment.playDelay1,Environment.playDelay2);
       }
     }
@@ -379,21 +370,18 @@ class MainView extends React.Component {
   }
 
   delayedPlay(frame,delay1,delay2) {
-    console.log("1111");
     this.speakerTimerID = setTimeout(()=>{
-      console.log("2222");
       clearTimeout(this.scrollLockTimerID);
       this.setState({scrollEnabled:false,speaking:true});
       this.forcedScrollParent(frame);
       this.speakerTimer2ID = setTimeout(()=>{
-        console.log("3333");
         this.sounds[frame].play((success) => {
-          console.log("4444");
           if (success) {
-            console.log("5555",frame,this.book);
             this.setState({scrollEnabled:true,speaking:false});
+            if (Environment.autoScroll && frame<Assets.images[Assets.mainBookName].length) {
+              this.forcedScrollParent(frame+1);  
+            }
           } else {
-            console.log("6666");
             this.setState({scrollEnabled:true,speaking:false});
           }
         });
